@@ -1,0 +1,74 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            name = "forge"
+            url = "http://files.minecraftforge.net/maven"
+        }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+
+plugins {
+    id 'org.ajoberstar.grgit' version '1.7.2'
+    id 'net.ltgt.apt' version '0.10'
+}
+
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+final commitId
+if (hasProperty("grgit")) { // If there's a valid Git repository, get the latest commit ID
+    commitId = "${grgit.head().abbreviatedId}"
+} else { // Else fall back to NOGIT
+    commitId = "NOGIT"
+}
+
+version = "${mc_version}-${mod_version}-${commitId}"
+group = "${mod_package_group}" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "${mod_archiveBaseName}"
+
+minecraft {
+    version = "${mc_version}-${forge_version}"
+    runDir = "run"
+    
+    mappings = "${forge_mappings}"
+}
+
+repositories {
+    maven { url 'http://dvs1.progwml6.com/files/maven' }
+    maven { url 'http://tehnut.info/maven' }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+	// JEI
+	deobfProvided "mezz.jei:jei_${mc_version}:${jei_version}:api"
+    runtime "mezz.jei:jei_${mc_version}:${jei_version}"
+    
+	// Mod dependencies
+
+	// JUnit
+	testCompile group: 'junit', name: 'junit', version: "${junit_version}"
+}
+
+processResources {
+	// this will ensure that this task is redone when the versions change.
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    // replace stuff in mcmod.info, nothing else
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+                
+        // replace version and mcversion
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+        
+    // copy everything else, thats not the mcmod.info
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+        exclude 'log4j2.xml'
+    }
+}
