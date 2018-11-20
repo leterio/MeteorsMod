@@ -1,0 +1,6 @@
+{
+	"parent": "meteorsmod:item/baseitem",
+	"textures": {
+		"layer0": "meteorsmod:items/red_meteor_gem"
+	}
+}
