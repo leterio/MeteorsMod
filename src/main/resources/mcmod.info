@@ -1,0 +1,16 @@
+[
+	{
+	  "modid": "meteorsmod",
+	  "name": "${mod_name}",
+	  "description": "TODO",
+	  "version": "${mod_version}",
+	  "mcversion": "${mc_version}",
+	  "url": "",
+	  "updateUrl": "",
+	  "authorList": ["Leterio"],
+	  "credits": "Original mod Author: AlexDGr8r <ON: https://github.com/AlexDGr8r/MeteorsMod>",
+	  "logoFile": "",
+	  "screenshots": [],
+	  "dependencies": []
+	}
+]
