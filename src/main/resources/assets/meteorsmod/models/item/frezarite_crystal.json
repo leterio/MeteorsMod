@@ -1,6 +1,0 @@
-{
-	"parent": "meteorsmod:item/baseitem",
-	"textures": {
-		"layer0": "meteorsmod:items/frezarite_crystal"
-	}
-}

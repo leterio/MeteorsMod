@@ -3,11 +3,19 @@ itemGroup.meteorsct=Meteors
 itemGroup.toolsct=Meteors Tools
 
 # GEMS
-item.meteorsmod:meteor_chips.name=Meteor Chip
-item.meteorsmod:red_meteor_gem.name=Red Meteor Gem
-item.meteorsmod:frezarite_crystal.name=Frezarite Crystal
-item.meteorsmod:kreknorite_chip.name=Kreknorite Chip
+item.meteorsmod:gem_meteor_chips.name=Meteor Chip
+item.meteorsmod:gem_red_meteor.name=Red Meteor Gem
+item.meteorsmod:gem_frezarite_crystal.name=Frezarite Crystal
+item.meteorsmod:gem_kreknorite_chip.name=Kreknorite Chip
 
 # Ice Cream
 item.meteorsmod:ice_cream_chocolate.name=Chocolate Ice Cream
 item.meteorsmod:ice_cream_vanilla.name=Vanilla Ice Cream
+
+# Ingots
+item.meteorsmod:ingot_frezarite.name=Frezarite Ingot
+item.meteorsmod:ingot_kreknorite.name=Kreknorite Ingot
+item.meteorsmod:ingot_meteorite.name=Meteorite Ingot
+
+
+

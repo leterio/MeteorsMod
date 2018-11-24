@@ -1,6 +1,6 @@
 {
 	"parent": "meteorsmod:item/itembase",
 	"textures": {
-		"layer0": "meteorsmod:items/ice_cream_chocolate"
+		"layer0": "meteorsmod:items/gem_meteor_chips"
 	}
 }

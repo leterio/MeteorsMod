@@ -1,5 +1,5 @@
 {
-	"parent": "meteorsmod:item/baseitem",
+	"parent": "meteorsmod:item/itembase",
 	"textures": {
 		"layer0": "meteorsmod:items/ice_cream_vanilla"
 	}
