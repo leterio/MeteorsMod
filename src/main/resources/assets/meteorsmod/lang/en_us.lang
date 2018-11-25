@@ -20,12 +20,12 @@ item.meteorsmod:ingot_kreknorite.name=Kreknorite Ingot
 item.meteorsmod:ingot_meteorite.name=Meteorite Ingot
 
 # Blocks
-tile.meteorsmod:meteor.name=Meteor
-tile.meteorsmod:meteor_rare.name=Meteor Rare
-tile.meteorsmod:meteor_hot.name=Meteor Hot
-tile.meteorsmod:meteor_hot_rare.name=Meteor Hot Rare
-tile.meteorsmod:meteor_ore.name=Meteor Ore
-tile.meteorsmod:meteor_block.name=Meteor Block
+tile.meteorsmod:fallen_meteor.name=Fallen Meteor
+tile.meteorsmod:meteorite_rare.name=Meteorite Rare
+tile.meteorsmod:meteorite_hot.name=Meteorite Hot
+tile.meteorsmod:meteorite_hot_rare.name=Meteorite Hot Rare
+tile.meteorsmod:meteorite_ore.name=Meteorite Ore
+tile.meteorsmod:meteorite_block.name=Meteorite Block
 tile.meteorsmod:kreknorite.name=Kreknorite
 tile.meteorsmod:kreknorite_block.name=Kreknorite Block
 tile.meteorsmod:frezarite.name=Frezarite

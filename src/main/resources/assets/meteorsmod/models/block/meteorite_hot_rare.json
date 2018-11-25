@@ -1,6 +1,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-       "all": "meteorsmod:blocks/meteor"
+       "all": "meteorsmod:blocks/meteorite_hot_rare"
    }
 }
