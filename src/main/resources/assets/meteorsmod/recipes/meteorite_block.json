@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "meteorsmod:ingot_meteorite"
+        }
+    },
+   
+    "result":
+    {
+        "item": "meteorsmod:meteorite_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "meteorsmod:meteorite_block",
+			"count": 1
+		}
+	],
+	"result": {
+		"item": "meteorsmod:ingot_meteorite",
+		"count": 9
+	}
+}
