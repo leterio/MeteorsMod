@@ -33,5 +33,6 @@ public class MeteorsMod {
 	public void preInit(final FMLPreInitializationEvent event) {
 		Logger.setLogger(event.getModLog());
 		Logger.info(() -> "Iniciando " + MODID);
+		proxy.init();
 	}
 }

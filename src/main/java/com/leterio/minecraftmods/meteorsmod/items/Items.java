@@ -13,17 +13,17 @@ public final class Items {
 	// @formatter:off
 	// GEMS
 	public static final ItemBase itemMeteorChips      = new ItemMeteorGems("gem_meteor_chips"         );
-	public static final ItemBase itemRedMeteorGem     = new ItemMeteorGems("gem_red_meteor"           );
 	public static final ItemBase itemFrezariteCrystal = new ItemMeteorGems("gem_frezarite_crystal"    );
 	public static final ItemBase itemKreknoriteChip   = new ItemMeteorGems("gem_kreknorite_chip"      );
+	public static final ItemBase itemRedMeteorGem     = new ItemMeteorGems("gem_red_meteor"           );
 	
 	// Ice Creams
 	public static final ItemFood itemIceCreamVanilla  = new ItemIceCream  ("ice_cream_vanilla"  , 6, 1);
 	public static final ItemFood itemIceCreamChcolate = new ItemIceCream  ("ice_cream_chocolate", 6, 1);
 
 	// Ingots
+	public static final ItemBase itemIngotMeteorite   = new ItemIngot     ("ingot_meteorite"          );
 	public static final ItemBase itemIngotFrezarite   = new ItemIngot     ("ingot_frezarite"          );
 	public static final ItemBase itemIngotKreknorite  = new ItemIngot     ("ingot_kreknorite"         );
-	public static final ItemBase itemIngotMeteorite   = new ItemIngot     ("ingot_meteorite"          );
 	// @formatter:on
 }
