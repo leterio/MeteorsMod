@@ -6,6 +6,7 @@ itemGroup.meteorsblocskct=Meteors Blocks
 # GEMS
 item.meteorsmod:gem_meteor_chips.name=Meteor Chip
 item.meteorsmod:gem_red_meteor.name=Red Meteor Gem
+item.meteorsmod:gem_red_meteor.tooltip=The energy in this gem appears to%nhave the ability to manipulate Meteors.
 item.meteorsmod:gem_frezarite_crystal.name=Frezarite Crystal
 item.meteorsmod:gem_kreknorite_chip.name=Kreknorite Chip
 
