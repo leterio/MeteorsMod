@@ -1,6 +1,7 @@
 # Creative Tabs
 itemGroup.meteorsct=Meteors
 itemGroup.toolsct=Meteors Tools
+itemGroup.meteorsblocskct=Meteors Blocks
 
 # GEMS
 item.meteorsmod:gem_meteor_chips.name=Meteor Chip
@@ -18,5 +19,18 @@ item.meteorsmod:ingot_kreknorite.name=Kreknorite Ingot
 item.meteorsmod:ingot_meteorite.name=Meteorite Ingot
 
 # Blocks
-tile.meteorsmod:meteor.name=Meteor Block
+tile.meteorsmod:meteor.name=Meteor
+tile.meteorsmod:meteor_rare.name=Meteor Rare
+tile.meteorsmod:meteor_hot.name=Meteor Hot
+tile.meteorsmod:meteor_hot_rare.name=Meteor Hot Rare
+tile.meteorsmod:meteor_ore.name=Meteor Ore
+tile.meteorsmod:meteor_block.name=Meteor Block
+tile.meteorsmod:kreknorite.name=Kreknorite
+tile.meteorsmod:kreknorite_block.name=Kreknorite Block
+tile.meteorsmod:frezarite.name=Frezarite
+tile.meteorsmod:frezarite_ore.name=Frezarite Ore
+tile.meteorsmod:frezarite_block.name=Frezarite Block
+tile.meteorsmod:block_red_gem.name=Red Gem Block
+tile.meteorsmod:meteorite_timer.name=Meteorite Timer
+
 

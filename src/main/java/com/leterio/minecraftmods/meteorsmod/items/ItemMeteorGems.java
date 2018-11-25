@@ -4,6 +4,6 @@ import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
 
 public class ItemMeteorGems extends ItemBase {
 	public ItemMeteorGems(String itemName) {
-		super(itemName, 64, MeteorsMod.meteorsCTab);
+		super(itemName, 64, MeteorsMod.METEORS_CT);
 	}
 }

@@ -1,5 +1,6 @@
 package com.leterio.minecraftmods.meteorsmod;
 
+import com.leterio.minecraftmods.meteorsmod.creativetabs.MeteorsBolcksCreativeTab;
 import com.leterio.minecraftmods.meteorsmod.creativetabs.MeteorsCreativeTab;
 import com.leterio.minecraftmods.meteorsmod.creativetabs.ToolsCreativeTab;
 import com.leterio.minecraftmods.meteorsmod.proxy.CommomProxy;
@@ -25,8 +26,9 @@ public class MeteorsMod {
 	public static CommomProxy proxy;
 
 	// @formatter:off
-	public static final MeteorsCreativeTab meteorsCTab = new MeteorsCreativeTab();
-	public static final ToolsCreativeTab   toolsCTab   = new ToolsCreativeTab();
+	public static final MeteorsCreativeTab METEORS_CT = new MeteorsCreativeTab();
+	public static final ToolsCreativeTab TOOLS_CT = new ToolsCreativeTab();
+	public static final MeteorsBolcksCreativeTab METEORS_BLOCK_CT = new MeteorsBolcksCreativeTab();
 	// @formatter:on
 
 	@EventHandler

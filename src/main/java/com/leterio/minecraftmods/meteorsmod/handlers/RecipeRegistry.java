@@ -11,9 +11,9 @@ public class RecipeRegistry {
 		Logger.debug(() -> "Registrando forjas");
 		
 		// @formatter:off
-		GameRegistry.addSmelting(Items.itemMeteorChips     , new ItemStack(Items.itemIngotMeteorite ), 1000);
-		GameRegistry.addSmelting(Items.itemFrezariteCrystal, new ItemStack(Items.itemIngotFrezarite ), 1000);
-		GameRegistry.addSmelting(Items.itemKreknoriteChip  , new ItemStack(Items.itemIngotKreknorite), 1000);
+		GameRegistry.addSmelting(Items.ITEM_METEOR_CHIPS     , new ItemStack(Items.ITEM_INGOT_METEORITE ), 1000);
+		GameRegistry.addSmelting(Items.ITEM_FREZARITE_CRYSTAL, new ItemStack(Items.ITEM_INGOT_FREZARITE ), 1000);
+		GameRegistry.addSmelting(Items.ITEM_KREKNORITE_CHIP  , new ItemStack(Items.ITEM_INGOT_KREKNORITE), 1000);
 		// @formatter:on
 	}
 }
