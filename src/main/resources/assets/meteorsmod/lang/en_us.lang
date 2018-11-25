@@ -17,5 +17,6 @@ item.meteorsmod:ingot_frezarite.name=Frezarite Ingot
 item.meteorsmod:ingot_kreknorite.name=Kreknorite Ingot
 item.meteorsmod:ingot_meteorite.name=Meteorite Ingot
 
-
+# Blocks
+tile.meteorsmod:meteor.name=Meteor Block
 

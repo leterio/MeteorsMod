@@ -1,9 +1,11 @@
 package com.leterio.minecraftmods.meteorsmod.handlers;
 
 import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
+import com.leterio.minecraftmods.meteorsmod.blocks.Blocks;
 import com.leterio.minecraftmods.meteorsmod.items.Items;
 import com.leterio.minecraftmods.meteorsmod.util.Logger;
 
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -19,6 +21,12 @@ public class RegistryHandler {
 		Logger.debug(() -> "Registrando itens ...");
 		event.getRegistry().registerAll(Items.ITEMS.toArray(new Item[0]));
 	}
+	
+	@SubscribeEvent
+	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
+		Logger.debug(() -> "Registrando blocos ...");
+		event.getRegistry().registerAll(Blocks.BLOCKS.toArray(new Block[0]));
+	}
 
 	@SideOnly(Side.CLIENT)
 	@SubscribeEvent
@@ -26,5 +34,10 @@ public class RegistryHandler {
 		for (Item item : Items.ITEMS) {
 			MeteorsMod.proxy.registerItemRenderer(item, 0, "inventory");
 		}
+		for(Block block: Blocks.BLOCKS) {
+			MeteorsMod.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
+		}
 	}
+	
+	
 }
