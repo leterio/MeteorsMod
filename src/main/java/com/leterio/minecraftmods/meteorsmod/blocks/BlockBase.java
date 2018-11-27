@@ -12,7 +12,7 @@ public class BlockBase extends Block {
 	public BlockBase(String blockName, CreativeTabs creativeTab, Material material) {
 		super(material);
 		setRegistryName(MeteorsMod.MODID, blockName);
-		setUnlocalizedName(getRegistryName().toString());
+		setTranslationKey(getRegistryName().toString());
 		setCreativeTab(creativeTab);
 		
 		Blocks.BLOCKS.add(this);

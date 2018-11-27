@@ -17,7 +17,7 @@ public class ItemFood extends net.minecraft.item.ItemFood {
 	public ItemFood(final String itemName, final int amount, int maxStackSize, CreativeTabs creativeTab) {
 		super(amount, false);
 		setRegistryName(MeteorsMod.MODID, itemName);
-		setUnlocalizedName(getRegistryName().toString());
+		setTranslationKey(getRegistryName().toString());
 		setMaxStackSize(maxStackSize);
 		setCreativeTab(creativeTab);
 
@@ -28,7 +28,7 @@ public class ItemFood extends net.minecraft.item.ItemFood {
 	@SuppressWarnings("unchecked")
 	@Override
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
-		String key = this.getUnlocalizedName() + ".tooltip";
+		String key = this.getTranslationKey() + ".tooltip";
 		String tooltipString;
 		if (I18n.hasKey(key) && (tooltipString = I18n.format(key)).length() > 0) {
 			tooltip.addAll(Arrays.asList(tooltipString.split("\n")));

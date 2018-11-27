@@ -16,7 +16,7 @@ public class MeteorsBolcksCreativeTab extends CreativeTabs {
 
 	@SideOnly(Side.CLIENT)
 	@Override
-	public ItemStack getTabIconItem() {
+	public ItemStack createIcon() {
 		return new ItemStack(Blocks.BLOCK_METEORITE_HOT_RARE);
 	}
 }

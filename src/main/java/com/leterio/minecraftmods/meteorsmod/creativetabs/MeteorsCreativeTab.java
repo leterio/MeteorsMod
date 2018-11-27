@@ -16,7 +16,7 @@ public class MeteorsCreativeTab extends CreativeTabs {
 
 	@SideOnly(Side.CLIENT)
 	@Override
-	public ItemStack getTabIconItem() {
+	public ItemStack createIcon() {
 		return new ItemStack(Items.ITEM_REDMETEOR_GEM);
 	}
 }
