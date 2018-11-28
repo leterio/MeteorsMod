@@ -11,7 +11,7 @@ buildscript {
     }
 }
 
-apply plugin: 'net.minecraftforge.gradle.forge'
+apply plugin: "net.minecraftforge.gradle.forge"
 
 version = "${mc_version}-${mod_version}"
 group = "${mod_package_group}"
