@@ -34,4 +34,5 @@ tile.meteorsmod:frezarite_block.name=Frezarite Block
 tile.meteorsmod:block_red_gem.name=Red Gem Block
 tile.meteorsmod:meteorite_timer.name=Meteorite Timer
 
-
+# Enchantment
+enchantment.magnetization.name=Magnetization
