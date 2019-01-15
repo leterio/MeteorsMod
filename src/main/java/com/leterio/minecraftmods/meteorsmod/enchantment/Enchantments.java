@@ -14,7 +14,7 @@ public class Enchantments {
 
 	public static final List<Enchantment> ENCHANTMENTS = new ArrayList<>();
 	
-	public static final EnchantmentMagnetion ENCHANTMENT_MAGNETIZATION = new EnchantmentMagnetion();
+	public static final EnchantmentMagneto ENCHANTMENT_MAGNETO = new EnchantmentMagneto();
 	
 	// Enchantments behaviors
 	

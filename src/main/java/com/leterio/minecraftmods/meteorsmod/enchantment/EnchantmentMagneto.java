@@ -5,11 +5,11 @@ import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
 import net.minecraft.enchantment.EnumEnchantmentType;
 import net.minecraft.inventory.EntityEquipmentSlot;
 
-public class EnchantmentMagnetion extends EnchantmentBase {
-	protected EnchantmentMagnetion() {
+public class EnchantmentMagneto extends EnchantmentBase {
+	protected EnchantmentMagneto() {
 		super(Rarity.VERY_RARE, EnumEnchantmentType.ALL, EntityEquipmentSlot.values());
-		setRegistryName(MeteorsMod.MODID, "magnetization");
-		setName("magnetization");
+		setRegistryName(MeteorsMod.MODID, "magneto");
+		setName("magneto");
 	}
 
 	@Override
