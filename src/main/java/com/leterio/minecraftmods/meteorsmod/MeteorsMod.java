@@ -1,8 +1,6 @@
 package com.leterio.minecraftmods.meteorsmod;
 
-import com.leterio.minecraftmods.meteorsmod.creativetabs.MeteorsBolcksCreativeTab;
 import com.leterio.minecraftmods.meteorsmod.creativetabs.MeteorsCreativeTab;
-import com.leterio.minecraftmods.meteorsmod.creativetabs.ToolsCreativeTab;
 import com.leterio.minecraftmods.meteorsmod.proxy.CommomProxy;
 import com.leterio.minecraftmods.meteorsmod.util.Logger;
 
@@ -25,11 +23,7 @@ public class MeteorsMod {
 	@SidedProxy(modId = MeteorsMod.MODID, serverSide = "com.leterio.minecraftmods.meteorsmod.proxy.CommomProxy", clientSide = "com.leterio.minecraftmods.meteorsmod.proxy.ClientProxy")
 	public static CommomProxy proxy;
 
-	// @formatter:off
 	public static final MeteorsCreativeTab METEORS_CT = new MeteorsCreativeTab();
-	public static final ToolsCreativeTab TOOLS_CT = new ToolsCreativeTab();
-	public static final MeteorsBolcksCreativeTab METEORS_BLOCK_CT = new MeteorsBolcksCreativeTab();
-	// @formatter:on
 
 	@EventHandler
 	public void preInit(final FMLPreInitializationEvent event) {

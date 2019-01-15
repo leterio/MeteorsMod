@@ -1,7 +1,5 @@
-# Creative Tabs
+# Creative Tab
 itemGroup.meteorsct=Meteors
-itemGroup.toolsct=Meteors Tools
-itemGroup.meteorsblocskct=Meteors Blocks
 
 # GEMS
 item.meteorsmod:gem_meteor_chips.name=Meteor Chip
