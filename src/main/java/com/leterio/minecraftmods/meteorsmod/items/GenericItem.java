@@ -6,7 +6,6 @@ import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
 
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -14,12 +13,14 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import scala.actors.threadpool.Arrays;
 
-public class ItemBase extends Item {
-	public ItemBase(final String itemName, final int maxStackSize, final CreativeTabs creativeTab) {
+
+public class GenericItem extends Item {
+	public GenericItem(final String itemName, final int maxStackSize) {
+		super();
 		setRegistryName(MeteorsMod.MODID, itemName);
 		setTranslationKey(getRegistryName().toString());
 		setMaxStackSize(maxStackSize);
-		setCreativeTab(creativeTab);
+		setCreativeTab(MeteorsMod.METEORS_CT);
 
 		Items.ITEMS.add(this);
 	}
