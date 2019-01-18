@@ -1,14 +1,22 @@
 package com.leterio.minecraftmods.meteorsmod.items;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
+import com.leterio.minecraftmods.meteorsmod.enchantment.Enchantments;
+import com.leterio.minecraftmods.meteorsmod.items.armor.ItemEnchantedArmor;
 import com.leterio.minecraftmods.meteorsmod.items.food.ItemFood;
+import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedAxe;
+import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedHoe;
+import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedPickaxe;
+import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedSpade;
+import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedSword;
 
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -32,7 +40,7 @@ public final class Items {
 	public static final ToolMaterial TOOL_KREKNORITE = EnumHelper.addToolMaterial("kreknorite_tool_material", 2, 250, 6.0F, 2.0F, 14);
 
 	// ITEMS
-	public static final List<Item> ITEMS = new ArrayList<>();
+	public static final List<Item> ITEMS = new LinkedList<>();
 
 	// GEMS
 	public static final GenericItem ITEM_METEOR_CHIPS      = new GenericItem("gem_meteor_chips"     , 64);
@@ -48,6 +56,18 @@ public final class Items {
 	public static final GenericItem ITEM_INGOT_METEORITE  = new GenericItem("ingot_meteorite" , 64);
 	public static final GenericItem ITEM_INGOT_FREZARITE  = new GenericItem("ingot_frezarite" , 64);
 	public static final GenericItem ITEM_INGOT_KREKNORITE = new GenericItem("ingot_kreknorite", 64);
+	
+	// Armours and tools
+	// Meteorite tools
+	public static final ItemEnchantedArmor   ARMOR_METEORITE_HELMET     = new ItemEnchantedArmor  ("armor_meteorite_helmet"    , Enchantments.ENCHANTMENT_MAGNETO, 2, ARMOR_METEORITE, EntityEquipmentSlot.HEAD);
+	public static final ItemEnchantedArmor   ARMOR_METEORITE_CHESTPLATE = new ItemEnchantedArmor  ("armor_meteorite_chestplate", Enchantments.ENCHANTMENT_MAGNETO, 2, ARMOR_METEORITE, EntityEquipmentSlot.CHEST);
+	public static final ItemEnchantedArmor   ARMOR_METEORITE_LEGGINGS   = new ItemEnchantedArmor  ("armor_meteorite_leggings"  , Enchantments.ENCHANTMENT_MAGNETO, 2, ARMOR_METEORITE, EntityEquipmentSlot.LEGS);
+	public static final ItemEnchantedArmor   ARMOR_METEORITE_BOOTS      = new ItemEnchantedArmor  ("armor_meteorite_boots"     , Enchantments.ENCHANTMENT_MAGNETO, 2, ARMOR_METEORITE, EntityEquipmentSlot.FEET);
+	public static final ItemEnchantedSword   TOOL_METEORITE_SWORD       = new ItemEnchantedSword  ("tool_meteorite_sword"      , Enchantments.ENCHANTMENT_MAGNETO, 2, TOOL_METEORITE);
+	public static final ItemEnchantedPickaxe TOOL_METEORITE_PICKAXE     = new ItemEnchantedPickaxe("tool_meteorite_pickaxe"    , Enchantments.ENCHANTMENT_MAGNETO, 2, TOOL_METEORITE);
+	public static final ItemEnchantedSpade   TOOL_METEORITE_SPADE       = new ItemEnchantedSpade  ("tool_meteorite_spade"      , Enchantments.ENCHANTMENT_MAGNETO, 2, TOOL_METEORITE);
+	public static final ItemEnchantedAxe     TOOL_METEORITE_AXE         = new ItemEnchantedAxe    ("tool_meteorite_axe"        , Enchantments.ENCHANTMENT_MAGNETO, 2, TOOL_METEORITE, -3.1F);
+	public static final ItemEnchantedHoe     TOOL_METEORITE_HOE         = new ItemEnchantedHoe    ("tool_meteorite_hoe"        , Enchantments.ENCHANTMENT_MAGNETO, 2, TOOL_METEORITE);
 	// @formatter:on
 
 	// GENERIC METHODS

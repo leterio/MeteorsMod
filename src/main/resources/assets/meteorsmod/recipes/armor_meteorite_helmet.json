@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RRR",
+        "R R"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "meteorsmod:ingot_meteorite"
+        }
+    },
+   
+    "result":
+    {
+        "item": "meteorsmod:armor_meteorite_helmet",
+        "count": 1
+    }
+}

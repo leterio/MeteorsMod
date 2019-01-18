@@ -11,7 +11,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemFood extends net.minecraft.item.ItemFood {
-	public ItemFood(final String itemName, final int amount, int maxStackSize) {
+	public ItemFood(String itemName, int amount, int maxStackSize) {
 		super(amount, false);
 		Items.registerItem(this, itemName, maxStackSize);
 	}

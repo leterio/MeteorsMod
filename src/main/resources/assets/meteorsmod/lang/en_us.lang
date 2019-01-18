@@ -6,7 +6,9 @@ item.meteorsmod:gem_meteor_chips.name=Meteor Chip
 item.meteorsmod:gem_red_meteor.name=Red Meteor Gem
 item.meteorsmod:gem_red_meteor.tooltip=The energy in this gem appears to%nhave the ability to manipulate Meteors.
 item.meteorsmod:gem_frezarite_crystal.name=Frezarite Crystal
+item.meteorsmod:gem_frezarite_crystal.tooltip=Too cold!
 item.meteorsmod:gem_kreknorite_chip.name=Kreknorite Chip
+item.meteorsmod:gem_kreknorite_chip.tooltip=Too hot!
 
 # Ice Cream
 item.meteorsmod:ice_cream_chocolate.name=Chocolate Ice Cream
@@ -16,6 +18,17 @@ item.meteorsmod:ice_cream_vanilla.name=Vanilla Ice Cream
 item.meteorsmod:ingot_frezarite.name=Frezarite Ingot
 item.meteorsmod:ingot_kreknorite.name=Kreknorite Ingot
 item.meteorsmod:ingot_meteorite.name=Meteorite Ingot
+
+# Meteorite Tools
+item.meteorsmod:armor_meteorite_helmet.name=Meteorite Helmet
+item.meteorsmod:armor_meteorite_chestplate.name=Meteorite Chestplate
+item.meteorsmod:armor_meteorite_leggings.name=Meteorite Leggings
+item.meteorsmod:armor_meteorite_boots.name=Meteorite Boots
+item.meteorsmod:tool_meteorite_sword.name=Meteorite Sword
+item.meteorsmod:tool_meteorite_pickaxe.name=Meteorite Pickaxe
+item.meteorsmod:tool_meteorite_spade.name=Meteorite Spade
+item.meteorsmod:tool_meteorite_axe.name=Meteorite Axe
+item.meteorsmod:tool_meteorite_hoe.name=Meteorite Hoe
 
 # Blocks
 tile.meteorsmod:fallen_meteor.name=Fallen Meteor
@@ -33,6 +46,6 @@ tile.meteorsmod:block_red_gem.name=Red Gem Block
 tile.meteorsmod:meteorite_timer.name=Meteorite Timer
 
 # Enchantment
-enchantment.magneto=Magneto
+enchantment.magneto=Magnetization
 # EnchantPlus compatibility
 enchantment.meteorsmod.magneto.desc=Why not be like the Magneto?
