@@ -1,6 +1,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-       "all": "meteorsmod:blocks/block_red_gem"
+       "all": "meteorsmod:blocks/red_gem_block"
    }
 }

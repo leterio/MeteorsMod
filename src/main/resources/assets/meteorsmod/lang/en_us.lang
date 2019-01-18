@@ -42,7 +42,7 @@ tile.meteorsmod:kreknorite_block.name=Kreknorite Block
 tile.meteorsmod:frezarite.name=Frezarite
 tile.meteorsmod:frezarite_ore.name=Frezarite Ore
 tile.meteorsmod:frezarite_block.name=Frezarite Block
-tile.meteorsmod:block_red_gem.name=Red Gem Block
+tile.meteorsmod:red_gem_block.name=Red Gem Block
 tile.meteorsmod:meteorite_timer.name=Meteorite Timer
 
 # Enchantment

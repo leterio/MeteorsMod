@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "meteorsmod:red_gem_block",
+			"count": 1
+		}
+	],
+	"result": {
+		"item": "meteorsmod:gem_red_meteor",
+		"count": 9
+	}
+}

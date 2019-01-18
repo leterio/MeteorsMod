@@ -6,7 +6,6 @@ import java.util.List;
 import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
 import com.leterio.minecraftmods.meteorsmod.enchantment.Enchantments;
 import com.leterio.minecraftmods.meteorsmod.items.armor.ItemEnchantedArmor;
-import com.leterio.minecraftmods.meteorsmod.items.food.ItemFood;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedAxe;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedHoe;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedPickaxe;
@@ -35,8 +34,8 @@ public final class Items {
 	public static final ArmorMaterial ARMOR_KREKNORITE = EnumHelper.addArmorMaterial("kreknorite_armor_material", MeteorsMod.MODID + ":armor_kreknorite", 40, new int[] { 3, 8, 6, 3 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F) .setRepairItem(new ItemStack(Items.ITEM_INGOT_KREKNORITE));
 
 	// ToolMaterial
-	public static final ToolMaterial TOOL_METEORITE = EnumHelper.addToolMaterial("meteorite_tool_material", 2, 250, 6.0F, 2.0F, 14);
-	public static final ToolMaterial TOOL_FREZARITE = EnumHelper.addToolMaterial("frezarite_tool_material", 2, 250, 6.0F, 2.0F, 14);
+	public static final ToolMaterial TOOL_METEORITE = EnumHelper.addToolMaterial("meteorite_tool_material"  , 2, 250, 6.0F, 2.0F, 14);
+	public static final ToolMaterial TOOL_FREZARITE = EnumHelper.addToolMaterial("frezarite_tool_material"  , 2, 250, 6.0F, 2.0F, 14);
 	public static final ToolMaterial TOOL_KREKNORITE = EnumHelper.addToolMaterial("kreknorite_tool_material", 2, 250, 6.0F, 2.0F, 14);
 
 	// ITEMS
@@ -49,8 +48,9 @@ public final class Items {
 	public static final GenericItem ITEM_REDMETEOR_GEM     = new GenericItem("gem_red_meteor"       , 64);
 
 	// Ice Creams
-	public static final ItemFood ITEM_ICECREAM_VANILLA  = new ItemFood("ice_cream_vanilla"  , 6, 1);
-	public static final ItemFood ITEM_ICECREAM_CHCOLATE = new ItemFood("ice_cream_chocolate", 6, 1);
+	// Desativado até existir uma recipe
+//	public static final ItemFood ITEM_ICECREAM_VANILLA  = new ItemFood("ice_cream_vanilla"  , 6, 1);
+//	public static final ItemFood ITEM_ICECREAM_CHCOLATE = new ItemFood("ice_cream_chocolate", 6, 1);
 
 	// Ingots
 	public static final GenericItem ITEM_INGOT_METEORITE  = new GenericItem("ingot_meteorite" , 64);
