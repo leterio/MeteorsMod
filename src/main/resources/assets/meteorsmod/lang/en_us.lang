@@ -30,6 +30,14 @@ item.meteorsmod:tool_meteorite_spade.name=Meteorite Spade
 item.meteorsmod:tool_meteorite_axe.name=Meteorite Axe
 item.meteorsmod:tool_meteorite_hoe.name=Meteorite Hoe
 
+# Kreknorite Tools
+item.meteorsmod:armor_kreknorite_helmet.name=Kreknorite Helmet
+item.meteorsmod:armor_kreknorite_chestplate.name=Kreknorite Chestplate
+item.meteorsmod:armor_kreknorite_leggings.name=Kreknorite Leggings
+item.meteorsmod:armor_kreknorite_boots.name=Kreknorite Boots
+item.meteorsmod:armor_kreknorite_bonus.tooltip=Set Bonus: §6Fire Immunity
+item.meteorsmod:tool_kreknorite_sword.name=Kreknorite Sword
+
 # Blocks
 tile.meteorsmod:fallen_meteor.name=Fallen Meteor
 tile.meteorsmod:meteorite_rare.name=Meteorite Rare

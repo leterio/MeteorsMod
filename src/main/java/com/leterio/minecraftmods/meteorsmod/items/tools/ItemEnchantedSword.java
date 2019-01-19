@@ -1,16 +1,16 @@
 package com.leterio.minecraftmods.meteorsmod.items.tools;
 
-import com.leterio.minecraftmods.meteorsmod.items.Items;
+import com.leterio.minecraftmods.meteorsmod.items.ItemHelper;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemSword;
 import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
 
-public class ItemEnchantedSword extends ItemSpade {
+public class ItemEnchantedSword extends ItemSword {
 	private final Enchantment defaultEnchantment;
 	private final int defaultEnchantmentLevel;
 
@@ -18,7 +18,7 @@ public class ItemEnchantedSword extends ItemSpade {
 		super(material);
 		this.defaultEnchantment = defaultEnchantment;
 		this.defaultEnchantmentLevel = defaultEnchantmentLevel >= 0 ? defaultEnchantmentLevel : 0;
-		Items.registerItem(this, itemName, 1);
+		ItemHelper.registerItem(this, itemName, 1);
 	}
 
 	@Override

@@ -1,0 +1,6 @@
+{
+	"parent": "meteorsmod:item/itembase",
+	"textures": {
+		"layer0": "meteorsmod:items/kreknorite_sword"
+	}
+}

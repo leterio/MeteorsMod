@@ -1,6 +1,6 @@
 package com.leterio.minecraftmods.meteorsmod.items.tools;
 
-import com.leterio.minecraftmods.meteorsmod.items.Items;
+import com.leterio.minecraftmods.meteorsmod.items.ItemHelper;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.enchantment.Enchantment;
@@ -18,7 +18,7 @@ public class ItemEnchantedHoe extends ItemHoe {
 		super(material);
 		this.defaultEnchantment = defaultEnchantment;
 		this.defaultEnchantmentLevel = defaultEnchantmentLevel >= 0 ? defaultEnchantmentLevel : 0;
-		Items.registerItem(this, itemName, 1);
+		ItemHelper.registerItem(this, itemName, 1);
 	}
 
 	@Override

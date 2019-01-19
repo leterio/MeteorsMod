@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"R",
+		"R",
+		"I"
+	],
+	"key": {
+		"R": {
+			"item": "meteorsmod:ingot_kreknorite"
+		}, "I": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "meteorsmod:tool_kreknorite_sword",
+		"count": 1
+	}
+}

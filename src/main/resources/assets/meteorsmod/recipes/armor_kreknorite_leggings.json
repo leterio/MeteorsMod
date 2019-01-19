@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"RRR",
+		"R R",
+		"R R"
+	],
+	"key": {
+		"R": {
+			"item": "meteorsmod:ingot_kreknorite"
+		}
+	},
+	"result": {
+		"item": "meteorsmod:armor_kreknorite_leggings",
+		"count": 1
+	}
+}

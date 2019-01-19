@@ -25,6 +25,6 @@ public class GenericItem extends Item {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
-		Items.addInformation(this, stack, worldIn, tooltip, flagIn);
+		ItemHelper.addInformation(this, tooltip);
 	}
 }
