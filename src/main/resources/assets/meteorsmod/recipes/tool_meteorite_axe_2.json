@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"RR",
+		"IR",
+		"I "
+	],
+	"key": {
+		"R": {
+			"item": "meteorsmod:ingot_meteorite"
+		}, "I": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "meteorsmod:tool_meteorite_axe",
+		"count": 1
+	}
+}
