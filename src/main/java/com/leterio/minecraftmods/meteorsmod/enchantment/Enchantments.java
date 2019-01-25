@@ -13,10 +13,7 @@ public class Enchantments {
 	private Enchantments() {}
 
 	public static final List<Enchantment> ENCHANTMENTS = new ArrayList<>();
-	
-	public static final EnchantmentMagneto ENCHANTMENT_MAGNETO = new EnchantmentMagneto();
-	
-	// Enchantments behaviors
-	
-	
+
+	public static final EnchantmentMagneto   ENCHANTMENT_MAGNETO    = new EnchantmentMagneto();
+	public static final EnchantmentColdTouch ENCHANTMENT_COLD_TOUCH = new EnchantmentColdTouch();
 }

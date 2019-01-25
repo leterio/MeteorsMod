@@ -13,8 +13,6 @@ import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedPickaxe;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedSpade;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedSword;
 
-import net.minecraft.client.resources.I18n;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -22,9 +20,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 import net.minecraftforge.common.util.EnumHelper;
-import scala.actors.threadpool.Arrays;
 
 public final class Items {
 	private Items() {}
@@ -77,5 +73,16 @@ public final class Items {
 	public static final ItemKreknoriteArmor ARMOR_KREKNORITE_LEGGINGS   = new ItemKreknoriteArmor("armor_kreknorite_leggings"  , Enchantment.getEnchantmentByID(1) , 4, ARMOR_KREKNORITE, EntityEquipmentSlot.LEGS); 
 	public static final ItemKreknoriteArmor ARMOR_KREKNORITE_BOOTS      = new ItemKreknoriteArmor("armor_kreknorite_boots"     , Enchantment.getEnchantmentByID(1) , 4, ARMOR_KREKNORITE, EntityEquipmentSlot.FEET); 
 	public static final ItemEnchantedSword TOOL_KREKNORITE_SWORD        = new ItemEnchantedSword ("tool_kreknorite_sword"      , Enchantment.getEnchantmentByID(20), 2, TOOL_KREKNORITE);
+	
+	// Frezarite
+	public static final ItemEnchantedArmor   ARMOR_FREZARITE_HELMET     = new ItemEnchantedArmor("armor_frezarite_helmet"    , Enchantment.getEnchantmentByID(5)  , 3, ARMOR_FREZARITE, EntityEquipmentSlot.HEAD); 
+	public static final ItemEnchantedArmor   ARMOR_FREZARITE_CHESTPLATE = new ItemEnchantedArmor("armor_frezarite_chestplate", Enchantment.getEnchantmentByID(6)  , 1, ARMOR_FREZARITE, EntityEquipmentSlot.CHEST);
+	public static final ItemEnchantedArmor   ARMOR_FREZARITE_LEGGINGS   = new ItemEnchantedArmor("armor_frezarite_leggings"  , Enchantment.getEnchantmentByID(34) , 1, ARMOR_FREZARITE, EntityEquipmentSlot.LEGS); 
+	public static final ItemEnchantedArmor   ARMOR_FREZARITE_BOOTS      = new ItemEnchantedArmor("armor_frezarite_boots"     , Enchantments.ENCHANTMENT_COLD_TOUCH, 1, ARMOR_FREZARITE, EntityEquipmentSlot.FEET); 
+	public static final ItemEnchantedSword   TOOL_FREZARITE_SWORD       = null;
+	public static final ItemEnchantedPickaxe TOOL_FREZARITE_PICKAXE     = null;
+	public static final ItemEnchantedSpade   TOOL_FREZARITE_SPADE       = null;
+	public static final ItemEnchantedAxe     TOOL_FREZARITE_AXE         = null;
+	public static final ItemEnchantedHoe     TOOL_FREZARITE_HOE         = null;
 	// @formatter:on
 }

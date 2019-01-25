@@ -38,6 +38,12 @@ item.meteorsmod:armor_kreknorite_boots.name=Kreknorite Boots
 item.meteorsmod:armor_kreknorite_bonus.tooltip=Set Bonus: §6Fire Immunity
 item.meteorsmod:tool_kreknorite_sword.name=Kreknorite Sword
 
+# Frezarite Tools
+item.meteorsmod:armor_frezarite_helmet.name=Frazarite Helmet
+item.meteorsmod:armor_frezarite_chestplate.name=Frazarite Chestplate
+item.meteorsmod:armor_frezarite_leggings.name=Frazarite Leggings
+item.meteorsmod:armor_frezarite_boots.name=Frazarite Boots
+
 # Blocks
 tile.meteorsmod:fallen_meteor.name=Fallen Meteor
 tile.meteorsmod:meteorite_rare.name=Meteorite Rare
@@ -55,5 +61,7 @@ tile.meteorsmod:meteorite_timer.name=Meteorite Timer
 
 # Enchantment
 enchantment.magneto=Magnetization
+enchantment.cold_touch=Cold Touch
 # EnchantPlus compatibility
-enchantment.meteorsmod.magneto.desc=Why not be like the Magneto?
+enchantment.meteorsmod.magneto.desc=Atract itens nearby
+enchantment.meteorsmod.cold_touch.desc=Feel the power of ice

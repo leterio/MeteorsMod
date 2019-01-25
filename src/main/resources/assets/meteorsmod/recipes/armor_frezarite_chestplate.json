@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"R R",
+		"RRR",
+		"RRR"
+	],
+	"key": {
+		"R": {
+			"item": "meteorsmod:ingot_frezarite"
+		}
+	},
+	"result": {
+		"item": "meteorsmod:armor_frezarite_chestplate",
+		"count": 1
+	}
+}
