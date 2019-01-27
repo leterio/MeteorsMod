@@ -12,6 +12,11 @@ import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedHoe;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedPickaxe;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedSpade;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedSword;
+import com.leterio.minecraftmods.meteorsmod.items.tools.frezarite.ItemFrezariteAxe;
+import com.leterio.minecraftmods.meteorsmod.items.tools.frezarite.ItemFrezariteHoe;
+import com.leterio.minecraftmods.meteorsmod.items.tools.frezarite.ItemFrezaritePickaxe;
+import com.leterio.minecraftmods.meteorsmod.items.tools.frezarite.ItemFrezariteSpade;
+import com.leterio.minecraftmods.meteorsmod.items.tools.frezarite.ItemFrezariteSword;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.init.SoundEvents;
@@ -72,18 +77,18 @@ public final class Items {
 	public static final ItemKreknoriteArmor ARMOR_KREKNORITE_CHESTPLATE = new ItemKreknoriteArmor("armor_kreknorite_chestplate", Enchantment.getEnchantmentByID(1) , 4, ARMOR_KREKNORITE, EntityEquipmentSlot.CHEST);
 	public static final ItemKreknoriteArmor ARMOR_KREKNORITE_LEGGINGS   = new ItemKreknoriteArmor("armor_kreknorite_leggings"  , Enchantment.getEnchantmentByID(1) , 4, ARMOR_KREKNORITE, EntityEquipmentSlot.LEGS); 
 	public static final ItemKreknoriteArmor ARMOR_KREKNORITE_BOOTS      = new ItemKreknoriteArmor("armor_kreknorite_boots"     , Enchantment.getEnchantmentByID(1) , 4, ARMOR_KREKNORITE, EntityEquipmentSlot.FEET); 
-	public static final ItemEnchantedSword TOOL_KREKNORITE_SWORD        = new ItemEnchantedSword ("tool_kreknorite_sword"      , Enchantment.getEnchantmentByID(20), 2, TOOL_KREKNORITE);
+	public static final ItemEnchantedSword  TOOL_KREKNORITE_SWORD       = new ItemEnchantedSword ("tool_kreknorite_sword"      , Enchantment.getEnchantmentByID(20), 2, TOOL_KREKNORITE);
 	
 	// Frezarite
-	public static final ItemEnchantedArmor   ARMOR_FREZARITE_HELMET     = new ItemEnchantedArmor("armor_frezarite_helmet"    , Enchantment.getEnchantmentByID(5)  , 3, ARMOR_FREZARITE, EntityEquipmentSlot.HEAD); 
-	public static final ItemEnchantedArmor   ARMOR_FREZARITE_CHESTPLATE = new ItemEnchantedArmor("armor_frezarite_chestplate", Enchantment.getEnchantmentByID(6)  , 1, ARMOR_FREZARITE, EntityEquipmentSlot.CHEST);
-	public static final ItemEnchantedArmor   ARMOR_FREZARITE_LEGGINGS   = new ItemEnchantedArmor("armor_frezarite_leggings"  , Enchantment.getEnchantmentByID(34) , 1, ARMOR_FREZARITE, EntityEquipmentSlot.LEGS); 
-	public static final ItemEnchantedArmor   ARMOR_FREZARITE_BOOTS      = new ItemEnchantedArmor("armor_frezarite_boots"     , Enchantments.ENCHANTMENT_COLD_TOUCH, 1, ARMOR_FREZARITE, EntityEquipmentSlot.FEET); 
-	public static final ItemEnchantedSword   TOOL_FREZARITE_SWORD       = null;
-	public static final ItemEnchantedPickaxe TOOL_FREZARITE_PICKAXE     = null;
-	public static final ItemEnchantedSpade   TOOL_FREZARITE_SPADE       = null;
-	public static final ItemEnchantedAxe     TOOL_FREZARITE_AXE         = null;
-	public static final ItemEnchantedHoe     TOOL_FREZARITE_HOE         = null;
+	public static final ItemEnchantedArmor   ARMOR_FREZARITE_HELMET     = new ItemEnchantedArmor  ("armor_frezarite_helmet"    , Enchantment.getEnchantmentByID(5)  , 3, ARMOR_FREZARITE, EntityEquipmentSlot.HEAD); 
+	public static final ItemEnchantedArmor   ARMOR_FREZARITE_CHESTPLATE = new ItemEnchantedArmor  ("armor_frezarite_chestplate", Enchantment.getEnchantmentByID(6)  , 1, ARMOR_FREZARITE, EntityEquipmentSlot.CHEST);
+	public static final ItemEnchantedArmor   ARMOR_FREZARITE_LEGGINGS   = new ItemEnchantedArmor  ("armor_frezarite_leggings"  , Enchantment.getEnchantmentByID(34) , 1, ARMOR_FREZARITE, EntityEquipmentSlot.LEGS); 
+	public static final ItemEnchantedArmor   ARMOR_FREZARITE_BOOTS      = new ItemEnchantedArmor  ("armor_frezarite_boots"     , Enchantments.ENCHANTMENT_COLD_TOUCH, 1, ARMOR_FREZARITE, EntityEquipmentSlot.FEET); 
+	public static final ItemFrezariteSword   TOOL_FREZARITE_SWORD       = new ItemFrezariteSword  ();       
+	public static final ItemFrezaritePickaxe TOOL_FREZARITE_PICKAXE     = new ItemFrezaritePickaxe();       
+	public static final ItemFrezariteSpade   TOOL_FREZARITE_SPADE       = new ItemFrezariteSpade  ();       
+	public static final ItemFrezariteAxe     TOOL_FREZARITE_AXE         = new ItemFrezariteAxe    (-3.1F);
+	public static final ItemFrezariteHoe     TOOL_FREZARITE_HOE         = new ItemFrezariteHoe    ();       
 	// @formatter:on
 
 	public static void registerOreDictionary() {

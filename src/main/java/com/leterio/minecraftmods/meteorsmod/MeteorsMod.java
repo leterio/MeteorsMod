@@ -12,6 +12,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = MeteorsMod.MODID, name = MeteorsMod.NAME, acceptedMinecraftVersions = MeteorsMod.ACCEPTED_VERSIONS, version = MeteorsMod.VERSION)
 public class MeteorsMod {
+	public static final boolean DEBUG_MODE = true;
+
 	public static final String MODID = "meteorsmod";
 	public static final String NAME = "${mod_name}";
 	public static final String ACCEPTED_VERSIONS = "[1.12.2]";
@@ -29,6 +31,5 @@ public class MeteorsMod {
 	public void preInit(final FMLPreInitializationEvent event) {
 		Logger.setLogger(event.getModLog());
 		Logger.info(() -> "Iniciando " + MODID);
-		proxy.init();
 	}
 }

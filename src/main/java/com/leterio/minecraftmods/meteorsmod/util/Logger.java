@@ -50,14 +50,22 @@ public final class Logger {
 	}
 
 	public static void debug(Supplier<String> message) {
-		if (logger.isDebugEnabled()) {
-			logger.debug(MOD_MARKER, message.get());
+		if (logger.isDebugEnabled() || MeteorsMod.DEBUG_MODE) {
+			if (MeteorsMod.DEBUG_MODE) {
+				logger.info(MOD_MARKER, message.get());
+			} else {
+				logger.debug(MOD_MARKER, message.get());
+			}
 		}
 	}
 
 	public static void debug(Supplier<String> message, Throwable t) {
-		if (logger.isDebugEnabled()) {
-			logger.debug(MOD_MARKER, message.get(), t);
+		if (logger.isDebugEnabled() || MeteorsMod.DEBUG_MODE) {
+			if (MeteorsMod.DEBUG_MODE) {
+				logger.info(MOD_MARKER, message.get(), t);
+			} else {
+				logger.debug(MOD_MARKER, message.get(), t);
+			}
 		}
 	}
 

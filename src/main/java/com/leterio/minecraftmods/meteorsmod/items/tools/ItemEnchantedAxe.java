@@ -1,7 +1,10 @@
 package com.leterio.minecraftmods.meteorsmod.items.tools;
 
+import java.util.List;
+
 import com.leterio.minecraftmods.meteorsmod.items.ItemHelper;
 
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.player.EntityPlayer;
@@ -9,6 +12,8 @@ import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemEnchantedAxe extends ItemAxe {
 	private final Enchantment defaultEnchantment;
@@ -37,4 +42,9 @@ public class ItemEnchantedAxe extends ItemAxe {
 		}
 	}
 
+	@SideOnly(Side.CLIENT)
+	@Override
+	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
+		ItemHelper.addInformation(this, tooltip);
+	}
 }

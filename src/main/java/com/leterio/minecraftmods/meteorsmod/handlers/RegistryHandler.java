@@ -1,7 +1,5 @@
 package com.leterio.minecraftmods.meteorsmod.handlers;
 
-import java.util.Collections;
-
 import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
 import com.leterio.minecraftmods.meteorsmod.blocks.Blocks;
 import com.leterio.minecraftmods.meteorsmod.enchantment.Enchantments;
@@ -24,36 +22,33 @@ import net.minecraftforge.oredict.OreDictionary;
 @EventBusSubscriber
 public class RegistryHandler {
 
-	public static void registerRecipes() {
-
-	}
-
-	public static void registerOreDictionary() {
-
-	}
-
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event) {
 		Logger.debug(() -> "Registrando itens ...");
-		Collections.sort(Items.ITEMS, (i1, i2) -> i1.getRegistryName().compareTo(i2.getRegistryName()));
 		event.getRegistry().registerAll(Items.ITEMS.toArray(new Item[Items.ITEMS.size()]));
 
-		Logger.debug(() -> "Registrando oredict");
-		OreDictionary.registerOre("ingotRedGem", Items.ITEM_REDMETEOR_GEM);
-		OreDictionary.registerOre("ingotMeteorite", Items.ITEM_INGOT_METEORITE);
-		OreDictionary.registerOre("ingotFrezarite", Items.ITEM_INGOT_FREZARITE);
-		OreDictionary.registerOre("ingotKreknorite", Items.ITEM_INGOT_KREKNORITE);
+		registerOreDictionary();
+		registerRecipes();
+	}
 
+	public static void registerRecipes() {
 		Logger.debug(() -> "Registrando forjas");
 		GameRegistry.addSmelting(Items.ITEM_METEOR_CHIPS, new ItemStack(Items.ITEM_INGOT_METEORITE), 1000);
 		GameRegistry.addSmelting(Items.ITEM_FREZARITE_CRYSTAL, new ItemStack(Items.ITEM_INGOT_FREZARITE), 1000);
 		GameRegistry.addSmelting(Items.ITEM_KREKNORITE_CHIP, new ItemStack(Items.ITEM_INGOT_KREKNORITE), 1000);
 	}
 
+	public static void registerOreDictionary() {
+		Logger.debug(() -> "Registrando oredict");
+		OreDictionary.registerOre("ingotRedGem", Items.ITEM_REDMETEOR_GEM);
+		OreDictionary.registerOre("ingotMeteorite", Items.ITEM_INGOT_METEORITE);
+		OreDictionary.registerOre("ingotFrezarite", Items.ITEM_INGOT_FREZARITE);
+		OreDictionary.registerOre("ingotKreknorite", Items.ITEM_INGOT_KREKNORITE);
+	}
+
 	@SubscribeEvent
 	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
 		Logger.debug(() -> "Registrando blocos ...");
-		Collections.sort(Blocks.BLOCKS, (i1, i2) -> i1.getRegistryName().compareTo(i2.getRegistryName()));
 		event.getRegistry().registerAll(Blocks.BLOCKS.toArray(new Block[Blocks.BLOCKS.size()]));
 	}
 

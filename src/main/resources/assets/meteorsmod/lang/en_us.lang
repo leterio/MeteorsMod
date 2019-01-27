@@ -26,7 +26,7 @@ item.meteorsmod:armor_meteorite_leggings.name=Meteorite Leggings
 item.meteorsmod:armor_meteorite_boots.name=Meteorite Boots
 item.meteorsmod:tool_meteorite_sword.name=Meteorite Sword
 item.meteorsmod:tool_meteorite_pickaxe.name=Meteorite Pickaxe
-item.meteorsmod:tool_meteorite_spade.name=Meteorite Spade
+item.meteorsmod:tool_meteorite_spade.name=Meteorite Shovel
 item.meteorsmod:tool_meteorite_axe.name=Meteorite Axe
 item.meteorsmod:tool_meteorite_hoe.name=Meteorite Hoe
 
@@ -39,10 +39,20 @@ item.meteorsmod:armor_kreknorite_bonus.tooltip=Set Bonus: §6Fire Immunity
 item.meteorsmod:tool_kreknorite_sword.name=Kreknorite Sword
 
 # Frezarite Tools
-item.meteorsmod:armor_frezarite_helmet.name=Frazarite Helmet
-item.meteorsmod:armor_frezarite_chestplate.name=Frazarite Chestplate
-item.meteorsmod:armor_frezarite_leggings.name=Frazarite Leggings
-item.meteorsmod:armor_frezarite_boots.name=Frazarite Boots
+item.meteorsmod:armor_frezarite_helmet.name=Frezarite Helmet
+item.meteorsmod:armor_frezarite_chestplate.name=Frezarite Chestplate
+item.meteorsmod:armor_frezarite_leggings.name=Frezarite Leggings
+item.meteorsmod:armor_frezarite_boots.name=Frezarite Boots
+item.meteorsmod:tool_frezarite_sword.name=Frezarite Sword
+item.meteorsmod:tool_frezarite_sword.tooltip=§bFreezes enemies, causing%n§bthem to slow down
+item.meteorsmod:tool_frezarite_pickaxe.name=Frezarite Pickaxe
+item.meteorsmod:tool_frezarite_pickaxe.tooltip=§bIncreases underwater%n§bmining speed
+item.meteorsmod:tool_frezarite_spade.name=Frezarite Shovel
+item.meteorsmod:tool_frezarite_spade.tooltip=§bIncreases underwater%n§bdigging speed
+item.meteorsmod:tool_frezarite_axe.name=Frezarite Axe
+item.meteorsmod:tool_frezarite_axe.tooltip=§bIncreases underwater%n§bcutting speed
+item.meteorsmod:tool_frezarite_hoe.name=Frezarite Hoe
+item.meteorsmod:tool_frezarite_hoe.tooltip=§bAutomatically waters%n§bfarmland when used
 
 # Blocks
 tile.meteorsmod:fallen_meteor.name=Fallen Meteor
