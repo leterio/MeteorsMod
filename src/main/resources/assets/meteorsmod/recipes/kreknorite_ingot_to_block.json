@@ -1,24 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
-   
-    "pattern":
-    [
-        "RRR",
-        "RRR",
-        "RRR"
-    ],
-   
-    "key":
-    {
-        "R":
-        {
-            "item": "meteorsmod:ingot_kreknorite"
-        }
-    },
-   
-    "result":
-    {
-        "item": "meteorsmod:kreknorite_block",
-        "count": 1
-    }
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"RRR",
+		"RRR",
+		"RRR"
+	],
+	"key": {
+		"R": {
+			"type": "forge:ore_dict",
+			"ore": "ingotKreknorite"
+		}
+	},
+	"result": {
+		"item": "meteorsmod:kreknorite_block",
+		"count": 1
+	}
 }

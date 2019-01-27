@@ -1,23 +1,17 @@
 {
-    "type": "minecraft:crafting_shaped",
-   
-    "pattern":
-    [
-        "R R",
-        "R R"
-    ],
-   
-    "key":
-    {
-        "R":
-        {
-            "item": "meteorsmod:ingot_meteorite"
-        }
-    },
-   
-    "result":
-    {
-        "item": "meteorsmod:armor_meteorite_boots",
-        "count": 1
-    }
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"R R",
+		"R R"
+	],
+	"key": {
+		"R": {
+			"type": "forge:ore_dict",
+			"ore": "ingotMeteorite"
+		}
+	},
+	"result": {
+		"item": "meteorsmod:armor_meteorite_boots",
+		"count": 1
+	}
 }

@@ -6,7 +6,8 @@
 	],
 	"key": {
 		"R": {
-			"item": "meteorsmod:ingot_frezarite"
+			"type": "forge:ore_dict",
+			"ore": "ingotFrezarite"
 		}
 	},
 	"result": {

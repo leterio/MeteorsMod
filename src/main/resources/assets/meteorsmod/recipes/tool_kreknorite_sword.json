@@ -7,8 +7,10 @@
 	],
 	"key": {
 		"R": {
-			"item": "meteorsmod:ingot_kreknorite"
-		}, "I": {
+			"type": "forge:ore_dict",
+			"ore": "ingotKreknorite"
+		},
+		"I": {
 			"item": "minecraft:stick"
 		}
 	},

@@ -85,4 +85,8 @@ public final class Items {
 	public static final ItemEnchantedAxe     TOOL_FREZARITE_AXE         = null;
 	public static final ItemEnchantedHoe     TOOL_FREZARITE_HOE         = null;
 	// @formatter:on
+
+	public static void registerOreDictionary() {
+
+	}
 }
