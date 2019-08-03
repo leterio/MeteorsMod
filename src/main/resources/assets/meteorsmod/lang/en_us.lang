@@ -75,3 +75,6 @@ enchantment.cold_touch=Cold Touch
 # EnchantPlus compatibility
 enchantment.meteorsmod.magneto.desc=Atract itens nearby
 enchantment.meteorsmod.cold_touch.desc=Feel the power of ice
+
+# Debug Tools
+item.meteorsmod:tool_rnmbdt.name=REMOVE NON MOD BLOCKS (USE WITH CAUTION)

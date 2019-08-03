@@ -12,6 +12,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = MeteorsMod.MODID, name = MeteorsMod.NAME, acceptedMinecraftVersions = MeteorsMod.ACCEPTED_VERSIONS, version = MeteorsMod.VERSION)
 public class MeteorsMod {
+	// TODO @ leterio - Externalizar as configs
+	
 	public static final boolean DEBUG_MODE = true;
 
 	public static final String MODID = "meteorsmod";

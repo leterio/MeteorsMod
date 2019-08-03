@@ -7,6 +7,7 @@ import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
 import com.leterio.minecraftmods.meteorsmod.enchantment.Enchantments;
 import com.leterio.minecraftmods.meteorsmod.items.armor.ItemEnchantedArmor;
 import com.leterio.minecraftmods.meteorsmod.items.armor.ItemKreknoriteArmor;
+import com.leterio.minecraftmods.meteorsmod.items.tools.ItemRemoveNonModBlocksDebugTool;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedAxe;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedHoe;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemEnchantedPickaxe;
@@ -43,6 +44,14 @@ public final class Items {
 
 	// ITEMS
 	public static final List<Item> ITEMS = new LinkedList<>();
+	
+	// DEBUG TOOLS
+	static {
+		if(MeteorsMod.DEBUG_MODE) {
+			// Apenas registrar os itens de debug
+			new ItemRemoveNonModBlocksDebugTool();
+		}
+	}
 
 	// GEMS
 	public static final GenericItem ITEM_METEOR_CHIPS      = new GenericItem("gem_meteor_chips"     , 64);
