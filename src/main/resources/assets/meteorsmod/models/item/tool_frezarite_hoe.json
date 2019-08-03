@@ -1,5 +1,5 @@
 {
-	"parent": "meteorsmod:item/itembase",
+	"parent": "minecraft:item/handheld",
 	"textures": {
 		"layer0": "meteorsmod:items/frezarite_hoe"
 	}
