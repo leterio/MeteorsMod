@@ -3,7 +3,7 @@ package com.leterio.minecraftmods.meteorsmod.handlers;
 import org.apache.commons.lang3.ArrayUtils;
 
 import com.leterio.minecraftmods.meteorsmod.items.Items;
-import com.leterio.minecraftmods.meteorsmod.util.Logger;
+import com.leterio.minecraftmods.meteorsmod.utils.Logger;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @EventBusSubscriber
-public class FrezariteToolsBreakSpeedHandler {
+public class FrezariteToolsBreakSpeedModifierHandler {
 	private static final Item[] MODIFIED_ITEMS = new Item[] { Items.TOOL_FREZARITE_PICKAXE, Items.TOOL_FREZARITE_SPADE, Items.TOOL_FREZARITE_AXE };
 
 	@SubscribeEvent

@@ -2,9 +2,9 @@ package com.leterio.minecraftmods.meteorsmod.handlers;
 
 import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
 import com.leterio.minecraftmods.meteorsmod.blocks.Blocks;
-import com.leterio.minecraftmods.meteorsmod.enchantment.Enchantments;
+import com.leterio.minecraftmods.meteorsmod.enchantments.Enchantments;
 import com.leterio.minecraftmods.meteorsmod.items.Items;
-import com.leterio.minecraftmods.meteorsmod.util.Logger;
+import com.leterio.minecraftmods.meteorsmod.utils.Logger;
 
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;

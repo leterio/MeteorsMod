@@ -3,7 +3,7 @@ package com.leterio.minecraftmods.meteorsmod.handlers;
 import java.util.Iterator;
 import java.util.List;
 
-import com.leterio.minecraftmods.meteorsmod.enchantment.Enchantments;
+import com.leterio.minecraftmods.meteorsmod.enchantments.Enchantments;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.Entity;

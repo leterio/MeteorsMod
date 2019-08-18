@@ -1,4 +1,4 @@
-package com.leterio.minecraftmods.meteorsmod.util;
+package com.leterio.minecraftmods.meteorsmod.utils;
 
 import java.util.function.Supplier;
 

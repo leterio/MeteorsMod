@@ -5,7 +5,7 @@ import java.util.Objects;
 
 import com.leterio.minecraftmods.meteorsmod.blocks.BlockBase;
 import com.leterio.minecraftmods.meteorsmod.items.GenericItem;
-import com.leterio.minecraftmods.meteorsmod.util.Logger;
+import com.leterio.minecraftmods.meteorsmod.utils.Logger;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;

@@ -1,4 +1,4 @@
-package com.leterio.minecraftmods.meteorsmod.proxy;
+package com.leterio.minecraftmods.meteorsmod.proxies;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;

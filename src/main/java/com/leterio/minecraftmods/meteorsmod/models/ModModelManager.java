@@ -1,4 +1,4 @@
-package com.leterio.minecraftmods.meteorsmod.model;
+package com.leterio.minecraftmods.meteorsmod.models;
 
 import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
 import com.leterio.minecraftmods.meteorsmod.items.Items;
@@ -27,12 +27,12 @@ public class ModModelManager {
 			ModelBakery.registerItemVariants(item, fullModelLocation);
 			ModelLoader.setCustomMeshDefinition(item, s -> fullModelLocation);
 		}
-		
-//		for (Block block : Blocks.BLOCKS) {
-//			final Item item = Item.getItemFromBlock(block);
-//			final ModelResourceLocation fullModelLocation = new ModelResourceLocation(item.getRegistryName().toString(), "inventory");
-//			ModelBakery.registerItemVariants(item, fullModelLocation);
-//			ModelLoader.setCustomMeshDefinition(item, s -> fullModelLocation);
-//		}
+
+		// for (Block block : Blocks.BLOCKS) {
+		// final Item item = Item.getItemFromBlock(block);
+		// final ModelResourceLocation fullModelLocation = new ModelResourceLocation(item.getRegistryName().toString(), "inventory");
+		// ModelBakery.registerItemVariants(item, fullModelLocation);
+		// ModelLoader.setCustomMeshDefinition(item, s -> fullModelLocation);
+		// }
 	}
 }

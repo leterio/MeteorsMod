@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 import com.leterio.minecraftmods.meteorsmod.MeteorsMod;
-import com.leterio.minecraftmods.meteorsmod.enchantment.Enchantments;
+import com.leterio.minecraftmods.meteorsmod.enchantments.Enchantments;
 import com.leterio.minecraftmods.meteorsmod.items.armor.ItemEnchantedArmor;
 import com.leterio.minecraftmods.meteorsmod.items.armor.ItemKreknoriteArmor;
 import com.leterio.minecraftmods.meteorsmod.items.tools.ItemRemoveNonModBlocksDebugTool;
