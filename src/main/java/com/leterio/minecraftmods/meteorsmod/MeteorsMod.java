@@ -3,12 +3,15 @@ package com.leterio.minecraftmods.meteorsmod;
 import com.leterio.minecraftmods.meteorsmod.creativetabs.MeteorsCreativeTab;
 import com.leterio.minecraftmods.meteorsmod.proxies.CommomProxy;
 import com.leterio.minecraftmods.meteorsmod.utils.Logger;
+import com.leterio.minecraftmods.meteorsmod.world.OreGen;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = MeteorsMod.MODID, name = MeteorsMod.NAME, acceptedMinecraftVersions = MeteorsMod.ACCEPTED_VERSIONS, version = MeteorsMod.VERSION)
 public class MeteorsMod {
@@ -33,5 +36,10 @@ public class MeteorsMod {
 	public void preInit(final FMLPreInitializationEvent event) {
 		Logger.setLogger(event.getModLog());
 		Logger.info(() -> "Iniciando " + MODID);
+	}
+
+	@EventHandler
+	public void init(final FMLInitializationEvent event) {
+		GameRegistry.registerWorldGenerator(new OreGen(), 0);
 	}
 }

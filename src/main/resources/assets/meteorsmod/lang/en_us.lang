@@ -63,6 +63,7 @@ tile.meteorsmod:meteorite_ore.name=Meteorite Ore
 tile.meteorsmod:meteorite_block.name=Meteorite Block
 tile.meteorsmod:kreknorite.name=Kreknorite
 tile.meteorsmod:kreknorite_block.name=Kreknorite Block
+tile.meteorsmod:kreknorite_ore.name=Kreknorite Ore
 tile.meteorsmod:frezarite.name=Frezarite
 tile.meteorsmod:frezarite_ore.name=Frezarite Ore
 tile.meteorsmod:frezarite_block.name=Frezarite Block

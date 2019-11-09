@@ -8,7 +8,7 @@
 	"key": {
 		"R": {
 			"type": "forge:ore_dict",
-			"ore": "ingotkreknorite"
+			"ore": "ingotKreknorite"
 		}
 	},
 	"result": {
