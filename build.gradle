@@ -35,15 +35,6 @@ dependencies {
 	// Runtime dependencies
 	// JEI
 	deobfCompile "mezz.jei:jei_${mc_version}:${jei_version}"
-
-	// EnchantingPlus
-	deobfCompile "net.darkhax.eplus:EnchantingPlus-${mc_version}:${eplus_version}"
-	deobfCompile "net.darkhax.bookshelf:Bookshelf-${mc_version}:${bookshelf_version}"
-
-	// Mod dependencies
-	
-	// JUnit
-	testCompile group: 'junit', name: 'junit', version: "${junit_version}"
 }
 
 processResources {

@@ -34,14 +34,9 @@ public class RegistryHandler {
 	public static void registerRecipes() {
 		Logger.debug(() -> "Registrando forjas");
 
-		// TODO @ leterio - Remover smelt e utilizar drop no bloco
-		GameRegistry.addSmelting(Blocks.BLOCK_METEORITE_ORE, new ItemStack(Items.ITEM_METEOR_CHIPS), 700);
-		GameRegistry.addSmelting(Blocks.BLOCK_FREZARITE_ORE, new ItemStack(Items.ITEM_FREZARITE_CRYSTAL), 1000);
-		GameRegistry.addSmelting(Blocks.BLOCK_KREKNORITE_ORE, new ItemStack(Items.ITEM_KREKNORITE_CHIP), 1000);
-
-		GameRegistry.addSmelting(Items.ITEM_METEOR_CHIPS, new ItemStack(Items.ITEM_INGOT_METEORITE), 0);
-		GameRegistry.addSmelting(Items.ITEM_FREZARITE_CRYSTAL, new ItemStack(Items.ITEM_INGOT_FREZARITE), 0);
-		GameRegistry.addSmelting(Items.ITEM_KREKNORITE_CHIP, new ItemStack(Items.ITEM_INGOT_KREKNORITE), 0);
+		GameRegistry.addSmelting(Items.ITEM_METEOR_CHIPS, new ItemStack(Items.ITEM_INGOT_METEORITE), 700);
+		GameRegistry.addSmelting(Items.ITEM_FREZARITE_CRYSTAL, new ItemStack(Items.ITEM_INGOT_FREZARITE), 1000);
+		GameRegistry.addSmelting(Items.ITEM_KREKNORITE_CHIP, new ItemStack(Items.ITEM_INGOT_KREKNORITE), 1000);
 	}
 
 	public static void registerOreDictionary() {
